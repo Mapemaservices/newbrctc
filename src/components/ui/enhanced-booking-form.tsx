@@ -218,7 +218,7 @@ const EnhancedBookingForm = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => handleInputChange("phone", e.target.value)}
-                  placeholder="+254 721 683232"
+                  placeholder="+254738844438"
                 />
               </div>
               <div className="space-y-2">
