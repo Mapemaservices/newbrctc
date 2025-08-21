@@ -86,14 +86,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: loading ? "+254 721 683232" : settings.contact_phone,
+      details: loading ? "+254738844438" : settings.contact_phone,
       subtext: loading ? "Mon-Fri: 8AM-6PM, Sat: 9AM-2PM" : settings.office_hours
     },
     {
       icon: Mail,
       title: "Email",
-      details: loading ? "info@brctc.co.ke" : settings.contact_email,
-      subtext: "We respond within 24 hours"
+      details: loading ? "syonthimusembi80@gmail.com" : settings.contact_email,
+      subtext: "We respond within 2 hours"
     },
     {
       icon: Clock,
@@ -199,7 +199,7 @@ const Contact = () => {
                           type="tel"
                           value={formData.phone}
                           onChange={(e) => handleInputChange("phone", e.target.value)}
-                          placeholder="+254 721 683232"
+                          placeholder="+254738844438"
                         />
                       </div>
                       <div className="space-y-2">
