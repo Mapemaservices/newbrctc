@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 const FloatingActions = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const phoneNumber = "+254721683232";
+  const phoneNumber = "+254738844438";
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent("Hello BRCTC! I'm interested in your counseling services and training programs. Could you please provide more information?");
