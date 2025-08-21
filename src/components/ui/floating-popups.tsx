@@ -25,17 +25,17 @@ const FloatingPopups = () => {
     },
     {
       id: 'emergency',
-      content: '🚨 Need immediate support? Call us now: +254 721 683232',
+      content: '🚨 Need immediate support? Call us now: +254738844438',
       type: 'reminder',
       position: { x: window.innerWidth - 350, y: 80 },
-      duration: 10000
+      duration: 15000
     },
     {
       id: 'training',
       content: '🎓 New training programs starting soon! Limited spaces available.',
       type: 'promo',
       position: { x: 50, y: window.innerHeight - 150 },
-      duration: 12000
+      duration: 15000
     }
   ];
 
