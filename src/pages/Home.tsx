@@ -65,9 +65,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: "1000+", label: "Clients Helped" },
+    { number: "3000+", label: "Clients Helped" },
     { number: "50+", label: "Trained Counselors" },
-    { number: "5+", label: "Years Experience" },
+    { number: "14+", label: "Years Experience" },
     { number: "98%", label: "Success Rate" }
   ];
 
